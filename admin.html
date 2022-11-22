@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="icon" href="imag/1231934.png">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="admin.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/d338699576.js" crossorigin="anonymous"></script></head>
+<body>
+    <div="cabeza" class="cabeza">
+
+        <video autoplay loop muted plays-inline class="back_video">
+            <source src="video/fondoU_A.mp4" type="video/mp4" />
+        </video>
+
+        <div class="tab_Container">
+            <ul class="options"> 
+                <li id="option1" class="option option_active"><i class="far fa-user"></i> Verificacion de usuario</li>
+                <li id="option2" class="option "><i class="fas fa-notes-medical"></i> Formulacion de receta</li>
+            </ul> 
+    
+            <div class="contents">
+                <div id="content1" class="content content_active">
+
+                    <h3><i class="far fa-user"></i> Verificacion de usuario</h3>
+                    <div class="hero_uno">
+                        <form action="">
+                            <div class="input_group">
+                                <input type="number" id="indentificacion" required>
+                                <label for="indentificacion"><i class="fas fa-id-card"></i> N.Identificacion</label>
+                            </div>
+                            <input class="button_A" type="submit" value="Registrar" >
+                        </form>
+                    </div>
+                    
+
+                </div>
+
+                <div id="content2" class="content">
+                    <h3><i class="fas fa-notes-medical"></i> Formulacion de receta</h3>
+
+                    <div class="hero">
+                        <form action="">
+                            <div class="input_group">
+                                <input type="number" id="indentificacion" required>
+                                <label for="indentificacion"><i class="fas fa-id-card"></i> N.Identificacion</label>
+                            </div>
+                            <div class="input_group">
+                                <input type="text" id="medicamento" required>
+                                <label for="medicamento"><i class="fa-solid fa-prescription-bottle-medical"></i> Medicamento</label>
+                            </div>
+                            <div class="input_group">
+                                <input type="number" id="cantidad" required>
+                                <label for="cantidad"><i class="fas fa-pills"></i> Cantidad</label>
+                            </div>
+                            <div class="input_group">
+                                <textarea id="message" cols="8" rows="5"></textarea>
+                                <label for="message"><i class="fas fa-stethoscope"></i> Formula</label>
+                            </div>
+                            <input class="button_AA" type="submit" value="Registrar" >
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="admin.js"></script>
+</html>

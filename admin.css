@@ -1,0 +1,85 @@
+/* formulario de reseta */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input_group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.button_A{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.hero_uno{
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.button_A{
+    margin-top: 100px;
+    width: 50%;
+    background: #fff;
+    color: black;
+    transition: 0.3s;
+}
+
+.button_A:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.button_AA{
+    background: #fff;
+    color: black;
+    transition: 0.3s;
+}
+
+.button_AA:hover{
+    background-color: transparent;
+    color: #fff;
+}
